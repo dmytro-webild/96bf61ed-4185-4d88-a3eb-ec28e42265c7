@@ -37,7 +37,7 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroCentered
-          title="Professional Websites Delivered in 24 Hours"
+          title="Professional Websites Live in 24 Hours"
           description="Nebula Studio creates stunning, conversion-focused websites for UAE businesses. We combine rapid delivery with premium design to help you capture leads and grow fast."
           background={{ variant: "plain" }}
           buttons={[
@@ -55,7 +55,7 @@ export default function LandingPage() {
 
       <div id="pricing" data-section="pricing">
         <PricingCardThree
-          title="Ramadan Special Offer"
+          title="Ramadan Special"
           description="Professional, conversion-focused website delivered in 24 hours"
           tag="Limited Time Offer"
           tagIcon={Gift}
