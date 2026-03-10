@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
+import { Coolvetica } from "next/font/google";
 import "./globals.css";
 
+const coolvetica = Coolvetica({
+  variable: "--font-coolvetica",  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
 export const metadata: Metadata = {
-  title: "Nebula Studio - Professional Websites in 24 Hours",  description: "Get a professional, conversion-focused website delivered in 24 hours. Perfect for UAE businesses looking to capture leads and grow fast."};
+  title: "Nebula Studio - Professional Websites in 24 Hours",  description: "Get stunning, conversion-focused websites for UAE businesses. Delivered in 24 hours with premium design."};
 
 export default function RootLayout({
   children,
@@ -11,8 +17,27 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
-        {children}
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                const theme = localStorage.getItem('theme');
+                if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.documentElement.classList.add('dark');
+                } else {
+                  document.documentElement.classList.remove('dark');
+                }
+              } catch (e) {}
+            `,
+          }}
+        />
+      </head>
+      <body className={`${coolvetica.variable}`}>
+        <ServiceWrapper>
+          <Tag />
+          {children}
+        </ServiceWrapper>
       
         <script
           dangerouslySetInnerHTML={{
@@ -1383,4 +1408,12 @@ export default function RootLayout({
       </body>
     </html>
   );
+}
+
+function ServiceWrapper({ children }: { children: React.ReactNode }) {
+  return <>{children}</>;
+}
+
+function Tag() {
+  return null;
 }
