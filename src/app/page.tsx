@@ -29,7 +29,7 @@ export default function LandingPage() {
             { name: "Pricing", id: "pricing" },
           ]}
           button={{
-            text: "WhatsApp Now",            href: "https://wa.me/971XXXXXXXXX"
+            text: "WhatsApp Now",            href: "https://wa.me/971585636936"
           }}
           animateOnLoad={true}
         />
@@ -41,7 +41,7 @@ export default function LandingPage() {
           description="Nebula Studio creates stunning, conversion-focused websites for UAE businesses. We combine rapid delivery with premium design to help you capture leads and grow fast."
           background={{ variant: "plain" }}
           buttons={[
-            { text: "Chat on WhatsApp", href: "https://wa.me/971XXXXXXXXX" }
+            { text: "Chat on WhatsApp", href: "https://wa.me/971585636936" }
           ]}
           buttonAnimation="slide-up"
           avatars={[
@@ -65,7 +65,7 @@ export default function LandingPage() {
             {
               id: "1",              badge: "Ramadan Special",              badgeIcon: Sparkles,
               price: "AED 1,499",              name: "Professional Website",              buttons: [
-                { text: "Get Started Now", href: "https://wa.me/971XXXXXXXXX" }
+                { text: "Get Started Now", href: "https://wa.me/971585636936" }
               ],
               features: [
                 "Mobile Responsive Design",                "WhatsApp Integration",                "24-Hour Delivery",                "Email Support"
@@ -84,7 +84,7 @@ export default function LandingPage() {
           title="Convert Visitors into WhatsApp Leads"
           description="Let's turn your vision into reality. Chat with our team on WhatsApp to get started with your 24-hour website."
           buttons={[
-            { text: "Chat on WhatsApp", href: "https://wa.me/971XXXXXXXXX" }
+            { text: "Chat on WhatsApp", href: "https://wa.me/971585636936" }
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "plain" }}
