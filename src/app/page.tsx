@@ -98,15 +98,15 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              tag: "Phase One",              title: "Design & Strategy",              subtitle: "Your vision, our expertise.",              description: "We begin with a strategic consultation to understand your business goals, target audience, and unique value proposition. Our designers create stunning mockups and wireframes that prioritize lead conversion.",              imageSrc: "http://img.b2bpic.net/free-vector/advertising-agency-infographic-template_23-2150741080.jpg",              imageAlt: "Design and strategy phase"
+              tag: "Phase One",              title: "Design & Strategy",              subtitle: "Your vision, our expertise.",              description: "We begin with a strategic consultation to understand your business goals, target audience, and unique value proposition. Our designers create stunning mockups and wireframes that prioritize lead conversion.",              imageSrc: "http://img.b2bpic.net/free-vector/advertising-agency-infographic-template_23-2150741080.jpg?_wi=1",              imageAlt: "Design and strategy phase"
             },
             {
               id: 2,
-              tag: "Phase Two",              title: "Development & Build",              subtitle: "Code that converts.",              description: "Our expert developers build your site using the latest technologies, optimizing for speed, mobile responsiveness, and SEO. Every element is coded for performance and user engagement.",              imageSrc: "http://img.b2bpic.net/free-photo/software-web-developer-coding-html-script-with-online-cloud-server-programming-firewall-security-learning-new-user-interface-terminal-window-with-code-language-application_482257-48034.jpg",              imageAlt: "Development and coding phase"
+              tag: "Phase Two",              title: "Development & Build",              subtitle: "Code that converts.",              description: "Our expert developers build your site using the latest technologies, optimizing for speed, mobile responsiveness, and SEO. Every element is coded for performance and user engagement.",              imageSrc: "http://img.b2bpic.net/free-photo/software-web-developer-coding-html-script-with-online-cloud-server-programming-firewall-security-learning-new-user-interface-terminal-window-with-code-language-application_482257-48034.jpg?_wi=1",              imageAlt: "Development and coding phase"
             },
             {
               id: 3,
-              tag: "Phase Three",              title: "Testing & Launch",              subtitle: "Ready to go live.",              description: "We thoroughly test across devices and browsers, fix any issues, and deploy your site. You get a live, fully functional website that's ready to capture leads from day one.",              imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page_52683-9429.jpg",              imageAlt: "Testing and launch phase"
+              tag: "Phase Three",              title: "Testing & Launch",              subtitle: "Ready to go live.",              description: "We thoroughly test across devices and browsers, fix any issues, and deploy your site. You get a live, fully functional website that's ready to capture leads from day one.",              imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page_52683-9429.jpg?_wi=1",              imageAlt: "Testing and launch phase"
             }
           ]}
           textboxLayout="default"
@@ -175,7 +175,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           features={[
             {
-              id: "1",              title: "Basic Website Package",              description: "Perfect for startups and small businesses looking to establish their online presence with a professional, fast-loading website.",              media: { imageSrc: "http://img.b2bpic.net/free-vector/advertising-agency-infographic-template_23-2150741080.jpg" },
+              id: "1",              title: "Basic Website Package",              description: "Perfect for startups and small businesses looking to establish their online presence with a professional, fast-loading website.",              media: { imageSrc: "http://img.b2bpic.net/free-vector/advertising-agency-infographic-template_23-2150741080.jpg?_wi=2" },
               items: [
                 { icon: CheckCircle, text: "5 Professional Pages" },
                 { icon: CheckCircle, text: "Mobile Responsive Design" },
@@ -185,7 +185,7 @@ export default function LandingPage() {
               reverse: false
             },
             {
-              id: "2",              title: "Professional Website Package",              description: "Ideal for growing businesses that need lead generation, custom forms, and advanced features to scale online.",              media: { imageSrc: "http://img.b2bpic.net/free-photo/software-web-developer-coding-html-script-with-online-cloud-server-programming-firewall-security-learning-new-user-interface-terminal-window-with-code-language-application_482257-48034.jpg" },
+              id: "2",              title: "Professional Website Package",              description: "Ideal for growing businesses that need lead generation, custom forms, and advanced features to scale online.",              media: { imageSrc: "http://img.b2bpic.net/free-photo/software-web-developer-coding-html-script-with-online-cloud-server-programming-firewall-security-learning-new-user-interface-terminal-window-with-code-language-application_482257-48034.jpg?_wi=2" },
               items: [
                 { icon: CheckCircle, text: "Up to 10 Pages" },
                 { icon: CheckCircle, text: "Advanced Lead Capture Forms" },
@@ -195,7 +195,7 @@ export default function LandingPage() {
               reverse: true
             },
             {
-              id: "3",              title: "Premium E-Commerce Package",              description: "For businesses ready to sell online with secure payment processing, inventory management, and full e-commerce capabilities.",              media: { imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page_52683-9429.jpg" },
+              id: "3",              title: "Premium E-Commerce Package",              description: "For businesses ready to sell online with secure payment processing, inventory management, and full e-commerce capabilities.",              media: { imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page_52683-9429.jpg?_wi=2" },
               items: [
                 { icon: CheckCircle, text: "Full E-Commerce Setup" },
                 { icon: CheckCircle, text: "Secure Payment Gateway" },
