@@ -40,9 +40,6 @@ export default function LandingPage() {
           title="Professional Websites Delivered in 24 Hours"
           description="Nebula Studio creates stunning, conversion-focused websites for UAE businesses. We combine rapid delivery with premium design to help you capture leads and grow fast."
           background={{ variant: "plain" }}
-          tag="Fast • Professional • Results-Driven"
-          tagIcon={Zap}
-          tagAnimation="slide-up"
           buttons={[
             { text: "Chat on WhatsApp", href: "https://wa.me/971XXXXXXXXX" }
           ]}
@@ -53,9 +50,6 @@ export default function LandingPage() {
             { src: "http://img.b2bpic.net/free-photo/man-portrait-posing-loft-modern-space_158595-5369.jpg", alt: "Client 3" }
           ]}
           avatarText="Join 50+ UAE businesses"
-          imageSrc="http://img.b2bpic.net/free-vector/gradient-ui-ux-landing-page_52683-70252.jpg"
-          imageAlt="Nebula Studio web design dashboard"
-          mediaAnimation="slide-up"
         />
       </div>
 
@@ -66,6 +60,7 @@ export default function LandingPage() {
           tag="Limited Time Offer"
           tagIcon={Gift}
           tagAnimation="slide-up"
+          animationType="slide-up"
           plans={[
             {
               id: "1",              badge: "Ramadan Special",              badgeIcon: Sparkles,
@@ -79,7 +74,6 @@ export default function LandingPage() {
             }
           ]}
           textboxLayout="default"
-          animationType="slide-up"
           useInvertedBackground={false}
         />
       </div>
