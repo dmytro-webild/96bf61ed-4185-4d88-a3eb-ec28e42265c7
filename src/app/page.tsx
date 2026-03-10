@@ -6,7 +6,7 @@ import HeroCentered from '@/components/sections/hero/HeroCentered';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import { Gift, Instagram, Linkedin, Mail, MessageCircle, Sparkles } from 'lucide-react';
+import { Gift, Mail, MessageCircle, Sparkles } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -97,9 +97,8 @@ export default function LandingPage() {
           logoText="Nebula Studio"
           copyrightText="© 2024 Nebula Studio. Websites delivered in 24 hours. All rights reserved."
           socialLinks={[
-            { icon: Instagram, href: "https://instagram.com/nebulastudiodubai", ariaLabel: "Follow us on Instagram" },
-            { icon: Linkedin, href: "https://linkedin.com/company/nebula-studio", ariaLabel: "Connect with us on LinkedIn" },
-            { icon: Mail, href: "mailto:hello@nebulastudio.ae", ariaLabel: "Email us" }
+            { icon: Mail, href: "mailto:artem@sha-ms.com", ariaLabel: "Email us" },
+            { icon: MessageCircle, href: "https://wa.me/971585636936", ariaLabel: "Chat with us on WhatsApp" }
           ]}
         />
       </div>
