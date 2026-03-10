@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
+import HeroCentered from '@/components/sections/hero/HeroCentered';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterCard from '@/components/sections/footer/FooterCard';
@@ -36,16 +36,10 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroSplitKpi
+        <HeroCentered
           title="Professional Websites Delivered in 24 Hours"
           description="Nebula Studio creates stunning, conversion-focused websites for UAE businesses. We combine rapid delivery with premium design to help you capture leads and grow fast."
           background={{ variant: "plain" }}
-          kpis={[
-            { value: "24hrs", label: "Delivery Time" },
-            { value: "100%", label: "Lead Focused" },
-            { value: "50+", label: "Happy Clients" }
-          ]}
-          enableKpiAnimation={true}
           tag="Fast • Professional • Results-Driven"
           tagIcon={Zap}
           tagAnimation="slide-up"
@@ -62,7 +56,6 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-vector/gradient-ui-ux-landing-page_52683-70252.jpg"
           imageAlt="Nebula Studio web design dashboard"
           mediaAnimation="slide-up"
-          imagePosition="right"
         />
       </div>
 
