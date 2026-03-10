@@ -17,7 +17,7 @@ export default function LandingPage() {
       contentWidth="medium"
       sizing="medium"
       background="circleGradient"
-      cardStyle="layered-gradient"
+      cardStyle="glass-elevated"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="glass"
       headingFontWeight="medium"
