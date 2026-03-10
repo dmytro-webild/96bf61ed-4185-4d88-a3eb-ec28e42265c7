@@ -16,7 +16,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="medium"
       sizing="medium"
-      background="circleGradient"
+      background="fluid"
       cardStyle="glass-elevated"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="glass"
