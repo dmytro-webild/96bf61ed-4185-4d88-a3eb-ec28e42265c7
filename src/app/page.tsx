@@ -65,11 +65,10 @@ export default function LandingPage() {
             {
               id: "1",              badge: "Ramadan Special",              badgeIcon: Sparkles,
               price: "AED 1,499",              name: "Professional Website",              buttons: [
-                { text: "Get Started Now", href: "https://wa.me/971XXXXXXXXX" },
-                { text: "Chat to Sales", href: "https://wa.me/971XXXXXXXXX" }
+                { text: "Get Started Now", href: "https://wa.me/971XXXXXXXXX" }
               ],
               features: [
-                "5 Professional Pages",                "Mobile Responsive Design",                "SEO Optimized",                "WhatsApp Integration",                "24-Hour Delivery",                "Email Support"
+                "Mobile Responsive Design",                "WhatsApp Integration",                "24-Hour Delivery",                "Email Support"
               ]
             }
           ]}
