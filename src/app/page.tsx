@@ -1,9 +1,8 @@
 "use client";
 
-import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleFullscreen from "@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen";
 import HeroBillboardTestimonial from "@/components/sections/hero/HeroBillboardTestimonial";
-import { MessageCircle } from "lucide-react";
 
 const navItems = [
   { name: "Home", id: "/" },
@@ -26,12 +25,14 @@ export default function Home() {
       secondaryButtonStyle="glass"
       headingFontWeight="semibold"
     >
-      <NavbarStyleFullscreen
-        navItems={navItems}
-        brandName="Nebula"
-        bottomLeftText="Global Community"
-        bottomRightText="hello@nebula.com"
-      />
+      <div id="nav" data-section="nav">
+        <NavbarStyleFullscreen
+          navItems={navItems}
+          brandName="Nebula"
+          bottomLeftText="Global Community"
+          bottomRightText="hello@nebula.com"
+        />
+      </div>
       <div id="hero" data-section="hero">
         <HeroBillboardTestimonial
           title="Professional Websites in 24 Hours"
@@ -43,19 +44,24 @@ export default function Home() {
           testimonials={[
             {
               name: "Ahmed Al Mansouri",              handle: "CEO, Tech Dubai",              testimonial: "Absolutely stunning work! They delivered exactly what we needed in record time.",              rating: 5,
-              imageSrc: "/avatar-1.jpg"},
+              imageSrc: "/avatar-1.jpg"
+            },
             {
               name: "Fatima Al Qasimi",              handle: "Marketing Director, UAE Retail",              testimonial: "Best investment for our business. The website converts!",              rating: 5,
-              imageSrc: "/avatar-2.jpg"},
+              imageSrc: "/avatar-2.jpg"
+            }
           ]}
           buttons={[
             {
-              text: "Get Started",              href: "https://wa.me/971501234567"},
+              text: "Get Started",              href: "https://wa.me/971501234567"
+            },
             {
-              text: "View Portfolio",              href: "portfolio"},
+              text: "View Portfolio",              href: "portfolio"
+            }
           ]}
           background={{
-            variant: "glowing-orb"}}
+            variant: "glowing-orb"
+          }}
           buttonAnimation="slide-up"
         />
       </div>
