@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import { Coolvetica } from "next/font/google";
+import { Merriweather } from "next/font/google";
 import "./globals.css";
 
-const coolvetica = Coolvetica({
-  variable: "--font-coolvetica",  subsets: ["latin"],
+const merriweather = Merriweather({
+  variable: "--font-merriweather",  subsets: ["latin"],
   weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "Nebula Studio - Professional Websites in 24 Hours",  description: "Get stunning, conversion-focused websites for UAE businesses. Delivered in 24 hours with premium design."};
+  title: "Nebula Studio - Professional Websites in 24 Hours",  description: "Get stunning, conversion-focused websites for UAE businesses. Delivered in 24 hours with premium design."
+};
 
 export default function RootLayout({
   children,
@@ -33,7 +34,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${coolvetica.variable}`}>
+      <body className={`${merriweather.variable}`}>
         <ServiceWrapper>
           <Tag />
           {children}
