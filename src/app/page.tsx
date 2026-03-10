@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -6,7 +6,7 @@ import HeroCentered from '@/components/sections/hero/HeroCentered';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import { Gift, Instagram, Linkedin, Mail, MessageCircle, Sparkles, Zap } from 'lucide-react';
+import { Gift, Instagram, Linkedin, Mail, MessageCircle, Sparkles } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -84,8 +84,7 @@ export default function LandingPage() {
           title="Convert Visitors into WhatsApp Leads"
           description="Let's turn your vision into reality. Chat with our team on WhatsApp to get started with your 24-hour website."
           buttons={[
-            { text: "Chat on WhatsApp", href: "https://wa.me/971XXXXXXXXX" },
-            { text: "Schedule Call", href: "https://wa.me/971XXXXXXXXX" }
+            { text: "Chat on WhatsApp", href: "https://wa.me/971XXXXXXXXX" }
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "plain" }}
