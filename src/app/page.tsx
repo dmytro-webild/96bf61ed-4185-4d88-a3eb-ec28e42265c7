@@ -55,15 +55,15 @@ export default function LandingPage() {
 
       <div id="pricing" data-section="pricing">
         <PricingCardThree
-          title="Ramadan Special"
+          title="Special Offer"
           description="Professional, conversion-focused website delivered in 24 hours"
-          tag="Limited Time Offer"
+          tag="Limited Time Deal"
           tagIcon={Gift}
           tagAnimation="slide-up"
           animationType="slide-up"
           plans={[
             {
-              id: "1",              badge: "Ramadan Special",              badgeIcon: Sparkles,
+              id: "1",              badge: "Special Offer",              badgeIcon: Sparkles,
               price: "AED 1,499",              name: "Professional Website",              buttons: [
                 { text: "Get Started Now", href: "https://wa.me/971585636936" }
               ],
